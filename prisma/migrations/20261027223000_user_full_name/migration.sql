@@ -1,0 +1,3 @@
+ALTER TABLE "User" ADD COLUMN "fullName" TEXT NOT NULL DEFAULT 'LinksHub utilisateur';
+
+ALTER TABLE "User" ALTER COLUMN "fullName" DROP DEFAULT;
